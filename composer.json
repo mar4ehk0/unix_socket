@@ -1,0 +1,21 @@
+{
+    "name": "mar4ehk0/unix_socket",
+    "description": "Example for Unix socket",
+    "homepage": "https://github.com/mar4ehk0/unix_socket",
+    "authors": [
+        {
+            "name": "Alexey Marchenko",
+            "email": "email@example.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.1.0",
+        "ext-sockets": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marchenko\\": "src"
+        }
+    }
+}
